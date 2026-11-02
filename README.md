@@ -4,24 +4,24 @@ Code, configurations, pre-registrations, trained models and result data for the 
 *Leveraging Network Digital Twins for Reliable Handover Control in Next-Generation Mobile Networks*.
 
 The paper has two parts, and so does this repository:
-- **Handover study:** an RSRP-forecasting basic model and a Double-DQN handover functional model, trained and evaluated in a simulated network based on 3GPP TR 38.901. Code in `ch5-outputs-v3/`.
+- **Handover study:** an RSRP-forecasting basic model and a Double-DQN handover functional model, trained and evaluated in a simulated network based on 3GPP TR 38.901. Code in `outputs-v3/`.
 - **Forecaster study:** six neural RSRP forecasters evaluated on real 5G drive traces. Code in `retraining_pipeline/v3/`.
 
 ## Layout
 
 | Path | Contents |
 |---|---|
-| `ch5-outputs-v3/scripts/` | Simulated network (`twin.py`), forecaster in the twin (`forecaster_twin.py`), training and evaluation campaign (`campaign.py`), statistics (`aggregate_campaign.py`), figures and tables (`figures.py`, `tables.py`), latency benchmark |
-| `ch5-outputs-v3/config*/` | Pinned configurations and calibration results of each study |
-| `ch5-outputs-v3/PREREGISTRATION*.md` | Pre-registrations, written before each study was run |
-| `ch5-outputs-v3/REPORT.md` | Results of all studies, with reproduction commands (§8) |
-| `ch5-outputs-v3/DEVIATIONS.md` | Deviations from the pre-registrations |
-| `ch5-outputs-v3/PHASE*-REPORT.md` | Reports of the preliminary studies |
-| `ch5-outputs-v3/checkpoints/` | Trained forecasters of the simulated network |
-| `ch5-outputs-v3/logs/raw-*/` | Per-scenario evaluation results of every run; `raw-3/seed-*/agent-*.pth` are the trained agents reported in the paper |
-| `ch5-outputs-v3/data/` | Aggregated results and statistical tests (`headline-3/`, `mobility-3/`, `speed-3/`, `robustness*/`, `sensitivity*/`, `latency/`, ...) |
-| `ch5-outputs-v3/render/` | Paper figures (PDF), each with the CSV of the plotted data |
-| `ch5-outputs-v2/scripts/common.py` | Shared helpers (DQN agent, A3 controller), imported by `twin.py` |
+| `outputs-v3/scripts/` | Simulated network (`twin.py`), forecaster in the twin (`forecaster_twin.py`), training and evaluation campaign (`campaign.py`), statistics (`aggregate_campaign.py`), figures and tables (`figures.py`, `tables.py`), latency benchmark |
+| `outputs-v3/config*/` | Pinned configurations and calibration results of each study |
+| `outputs-v3/PREREGISTRATION*.md` | Pre-registrations, written before each study was run |
+| `outputs-v3/REPORT.md` | Results of all studies, with reproduction commands (§8) |
+| `outputs-v3/DEVIATIONS.md` | Deviations from the pre-registrations |
+| `outputs-v3/PHASE*-REPORT.md` | Reports of the preliminary studies |
+| `outputs-v3/checkpoints/` | Trained forecasters of the simulated network |
+| `outputs-v3/logs/raw-*/` | Per-scenario evaluation results of every run; `raw-3/seed-*/agent-*.pth` are the trained agents reported in the paper |
+| `outputs-v3/data/` | Aggregated results and statistical tests (`headline-3/`, `mobility-3/`, `speed-3/`, `robustness*/`, `sensitivity*/`, `latency/`, ...) |
+| `outputs-v3/render/` | Paper figures (PDF), each with the CSV of the plotted data |
+| `outputs-v2/scripts/common.py` | Shared helpers (DQN agent, A3 controller), imported by `twin.py` |
 | `retraining_pipeline/v3/` | Real-trace forecasters: preparation, training, evaluation, results and checkpoints |
 | `retraining_pipeline/{architectures,config,data_prep}.py` | Forecaster architectures and data preparation shared by both studies |
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ## Paper figures and tables
 
-All are produced from the files in this repository, run from `ch5-outputs-v3/scripts/`.
+All are produced from the files in this repository, run from `outputs-v3/scripts/`.
 
 | Paper | Produced by | Data |
 |---|---|---|
@@ -63,7 +63,7 @@ All are produced from the files in this repository, run from `ch5-outputs-v3/scr
 
 ## Reproducing the results
 
-The full sequence of commands is in `ch5-outputs-v3/REPORT.md`, §8.
+The full sequence of commands is in `outputs-v3/REPORT.md`, §8.
 
 - **Re-run only the statistics** from the stored per-scenario results (`logs/raw-*`): `python aggregate_campaign.py --study 3`. This takes seconds.
 - **Retrain everything:** about 3 h per seed on a 16-core CPU for the handover agents, and 1–13 h per model for the real-trace forecasters.

@@ -5,6 +5,6 @@ __pycache__/
 *.npz
 *.npy
 retraining_pipeline/data/
-ch5-outputs-v3/data/predictor-twin/transformer-forecasts/
-ch5-outputs-v3/data/rsrp-trace-3/part-*.csv
-ch5-outputs-v3/data/rsrp-trace-3/per_step.csv.gz
+outputs-v3/data/predictor-twin/transformer-forecasts/
+outputs-v3/data/rsrp-trace-3/part-*.csv
+outputs-v3/data/rsrp-trace-3/per_step.csv.gz
