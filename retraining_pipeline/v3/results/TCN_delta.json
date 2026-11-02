@@ -1,0 +1,112 @@
+{
+  "arch": "TCN",
+  "target": "delta",
+  "params": 69574,
+  "epochs_run": 77,
+  "train_seconds": 2323.9,
+  "val_mse_db_mean_over_k": 16.985254287719727,
+  "val": [
+    {
+      "k": 1,
+      "MAE_dB": 1.4112555980682373,
+      "RMSE_dB": 2.649141311645508,
+      "R2": 0.9507042393088341,
+      "skill_vs_persistence": 0.03446131944656372,
+      "changed_frac": 0.37983075983599407,
+      "changed_MAE_dB": 3.248701333999634,
+      "changed_persistence_MAE_dB": 3.3339457511901855
+    },
+    {
+      "k": 2,
+      "MAE_dB": 2.5409579277038574,
+      "RMSE_dB": 3.6832199096679688,
+      "R2": 0.9049041122198105,
+      "skill_vs_persistence": 0.0670974850654602,
+      "changed_frac": 0.750501613888162,
+      "changed_MAE_dB": 3.2043209075927734,
+      "changed_persistence_MAE_dB": 3.34708833694458
+    },
+    {
+      "k": 3,
+      "MAE_dB": 3.009199380874634,
+      "RMSE_dB": 4.230624675750732,
+      "R2": 0.874784529209137,
+      "skill_vs_persistence": 0.08222860097885132,
+      "changed_frac": 0.8335514263281864,
+      "changed_MAE_dB": 3.4844963550567627,
+      "changed_persistence_MAE_dB": 3.6530611515045166
+    },
+    {
+      "k": 4,
+      "MAE_dB": 3.329956293106079,
+      "RMSE_dB": 4.640113830566406,
+      "R2": 0.8496605604887009,
+      "skill_vs_persistence": 0.09057247638702393,
+      "changed_frac": 0.8524818982814272,
+      "changed_MAE_dB": 3.7803235054016113,
+      "changed_persistence_MAE_dB": 3.9764633178710938
+    },
+    {
+      "k": 5,
+      "MAE_dB": 3.6113903522491455,
+      "RMSE_dB": 4.991330623626709,
+      "R2": 0.8263730704784393,
+      "skill_vs_persistence": 0.0985841155052185,
+      "changed_frac": 0.8612928552734886,
+      "changed_MAE_dB": 4.055085182189941,
+      "changed_persistence_MAE_dB": 4.288564682006836
+    }
+  ],
+  "test": [
+    {
+      "k": 1,
+      "MAE_dB": 1.1933420896530151,
+      "RMSE_dB": 2.361083745956421,
+      "R2": 0.9495270662009716,
+      "skill_vs_persistence": 0.03142756223678589,
+      "changed_frac": 0.35196315666224337,
+      "changed_MAE_dB": 2.9891538619995117,
+      "changed_persistence_MAE_dB": 3.0629851818084717
+    },
+    {
+      "k": 2,
+      "MAE_dB": 2.1670823097229004,
+      "RMSE_dB": 3.280027151107788,
+      "R2": 0.9025726988911629,
+      "skill_vs_persistence": 0.06422054767608643,
+      "changed_frac": 0.7015065178362345,
+      "changed_MAE_dB": 2.934788942337036,
+      "changed_persistence_MAE_dB": 3.0652053356170654
+    },
+    {
+      "k": 3,
+      "MAE_dB": 2.5449111461639404,
+      "RMSE_dB": 3.7617673873901367,
+      "R2": 0.8718561083078384,
+      "skill_vs_persistence": 0.08306103944778442,
+      "changed_frac": 0.7687924439934432,
+      "changed_MAE_dB": 3.1873092651367188,
+      "changed_persistence_MAE_dB": 3.3596303462982178
+    },
+    {
+      "k": 4,
+      "MAE_dB": 2.815706491470337,
+      "RMSE_dB": 4.144664287567139,
+      "R2": 0.8443304002285004,
+      "skill_vs_persistence": 0.09596729278564453,
+      "changed_frac": 0.7847162594645227,
+      "changed_MAE_dB": 3.4516258239746094,
+      "changed_persistence_MAE_dB": 3.6659703254699707
+    },
+    {
+      "k": 5,
+      "MAE_dB": 3.0602357387542725,
+      "RMSE_dB": 4.473207473754883,
+      "R2": 0.8185700178146362,
+      "skill_vs_persistence": 0.10443246364593506,
+      "changed_frac": 0.7990789165560847,
+      "changed_MAE_dB": 3.6840603351593018,
+      "changed_persistence_MAE_dB": 3.9295692443847656
+    }
+  ]
+}

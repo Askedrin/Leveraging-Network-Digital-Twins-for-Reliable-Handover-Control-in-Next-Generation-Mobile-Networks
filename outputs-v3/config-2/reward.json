@@ -1,0 +1,10 @@
+{
+  "reward_mode": "kpi",
+  "ho_cost": 0.1,
+  "pp_penalty": 1.5,
+  "candidates": [
+    0.0,
+    0.1
+  ],
+  "rule": "min (N_RLF + N_HOF + 0.1 N_PP,1s)/UE-h of the pilot on calibration seeds"
+}

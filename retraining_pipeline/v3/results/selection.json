@@ -1,0 +1,19 @@
+{
+  "selected": "BiLSTM_abs",
+  "rule": "lowest validation MSE averaged over k (both targets)",
+  "val_mse_db2": {
+    "BiLSTM_abs": 16.953554153442383,
+    "Transformer_delta": 16.954561233520508,
+    "ImprovedLSTM_abs": 16.955184936523438,
+    "TCN_delta": 16.985254287719727,
+    "ImprovedLSTM_delta": 17.050270080566406,
+    "BiLSTM_delta": 17.202035903930664,
+    "CNNLSTM_abs": 17.230741500854492,
+    "CNNLSTM_delta": 17.24802017211914,
+    "TCN_abs": 17.736724853515625,
+    "LSTMAttention_delta": 17.927955627441406,
+    "LSTMAttention_abs": 38.86347198486328
+  },
+  "n_models": 11,
+  "complete": false
+}

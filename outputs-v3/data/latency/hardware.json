@@ -1,0 +1,16 @@
+{
+  "cpu_model": "Intel(R) Xeon(R) w3-2435",
+  "logical_cores": 16,
+  "ram_gib": 30.59,
+  "gpu_model": "NVIDIA T400 4GB",
+  "gpu_vram_gib": 3.62,
+  "python": "3.12.4",
+  "pytorch": "2.5.1",
+  "device_used": "CPU",
+  "study": "3",
+  "scenario": 3100,
+  "threads": 1,
+  "batch": "1 UE (12 links)",
+  "forecaster": "CNNLSTM",
+  "torch": "2.5.1"
+}

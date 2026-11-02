@@ -1,0 +1,112 @@
+{
+  "arch": "ImprovedLSTM",
+  "target": "abs",
+  "params": 45509,
+  "epochs_run": 83,
+  "train_seconds": 366.0,
+  "val_mse_db_mean_over_k": 16.955184936523438,
+  "val": [
+    {
+      "k": 1,
+      "MAE_dB": 1.6577415466308594,
+      "RMSE_dB": 2.7235159873962402,
+      "R2": 0.947897419333458,
+      "skill_vs_persistence": -0.020514845848083496,
+      "changed_frac": 0.37983075983599407,
+      "changed_MAE_dB": 3.2196033000946045,
+      "changed_persistence_MAE_dB": 3.3339457511901855
+    },
+    {
+      "k": 2,
+      "MAE_dB": 2.6101112365722656,
+      "RMSE_dB": 3.700019359588623,
+      "R2": 0.9040346592664719,
+      "skill_vs_persistence": 0.05856812000274658,
+      "changed_frac": 0.750501613888162,
+      "changed_MAE_dB": 3.187751293182373,
+      "changed_persistence_MAE_dB": 3.34708833694458
+    },
+    {
+      "k": 3,
+      "MAE_dB": 3.0540826320648193,
+      "RMSE_dB": 4.227381229400635,
+      "R2": 0.8749764412641525,
+      "skill_vs_persistence": 0.08363533020019531,
+      "changed_frac": 0.8335514263281864,
+      "changed_MAE_dB": 3.4646642208099365,
+      "changed_persistence_MAE_dB": 3.6530611515045166
+    },
+    {
+      "k": 4,
+      "MAE_dB": 3.359233856201172,
+      "RMSE_dB": 4.614817142486572,
+      "R2": 0.8512953072786331,
+      "skill_vs_persistence": 0.10046136379241943,
+      "changed_frac": 0.8524818982814272,
+      "changed_MAE_dB": 3.748359441757202,
+      "changed_persistence_MAE_dB": 3.9764633178710938
+    },
+    {
+      "k": 5,
+      "MAE_dB": 3.632201910018921,
+      "RMSE_dB": 4.9498443603515625,
+      "R2": 0.8292473256587982,
+      "skill_vs_persistence": 0.11350637674331665,
+      "changed_frac": 0.8612928552734886,
+      "changed_MAE_dB": 4.018255233764648,
+      "changed_persistence_MAE_dB": 4.288564682006836
+    }
+  ],
+  "test": [
+    {
+      "k": 1,
+      "MAE_dB": 1.4003742933273315,
+      "RMSE_dB": 2.4145596027374268,
+      "R2": 0.9472148641943932,
+      "skill_vs_persistence": -0.012943387031555176,
+      "changed_frac": 0.35196315666224337,
+      "changed_MAE_dB": 2.9436028003692627,
+      "changed_persistence_MAE_dB": 3.0629851818084717
+    },
+    {
+      "k": 2,
+      "MAE_dB": 2.2260653972625732,
+      "RMSE_dB": 3.28822660446167,
+      "R2": 0.9020849838852882,
+      "skill_vs_persistence": 0.0595361590385437,
+      "changed_frac": 0.7015065178362345,
+      "changed_MAE_dB": 2.9011342525482178,
+      "changed_persistence_MAE_dB": 3.0652053356170654
+    },
+    {
+      "k": 3,
+      "MAE_dB": 2.5880024433135986,
+      "RMSE_dB": 3.766932725906372,
+      "R2": 0.8715039491653442,
+      "skill_vs_persistence": 0.08054113388061523,
+      "changed_frac": 0.7687924439934432,
+      "changed_MAE_dB": 3.1687843799591064,
+      "changed_persistence_MAE_dB": 3.3596303462982178
+    },
+    {
+      "k": 4,
+      "MAE_dB": 2.860680103302002,
+      "RMSE_dB": 4.13966178894043,
+      "R2": 0.8447059690952301,
+      "skill_vs_persistence": 0.0981484055519104,
+      "changed_frac": 0.7847162594645227,
+      "changed_MAE_dB": 3.436506509780884,
+      "changed_persistence_MAE_dB": 3.6659703254699707
+    },
+    {
+      "k": 5,
+      "MAE_dB": 3.104123115539551,
+      "RMSE_dB": 4.457035541534424,
+      "R2": 0.819879487156868,
+      "skill_vs_persistence": 0.1108962893486023,
+      "changed_frac": 0.7990789165560847,
+      "changed_MAE_dB": 3.672239065170288,
+      "changed_persistence_MAE_dB": 3.9295692443847656
+    }
+  ]
+}

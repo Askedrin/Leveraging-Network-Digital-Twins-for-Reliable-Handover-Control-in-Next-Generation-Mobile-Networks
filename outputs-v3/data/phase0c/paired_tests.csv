@@ -1,0 +1,17 @@
+comparison,kpi,better_direction,arm_mean,reactive_mean,relative_improvement,p_raw,p_holm,improves,degrades
+Oracle DQN k=5 vs Reactive DQN,rlf_per_ueh,lower,138.255,213.11999999999998,0.3512809684684684,1.9073486328125e-06,7.62939453125e-06,True,False
+Oracle DQN k=5 vs Reactive DQN,hof_rate,lower,0.01684531654790979,0.004143301082928606,-3.0656752214596548,5.7220458984375e-06,7.62939453125e-06,False,True
+Oracle DQN k=5 vs Reactive DQN,outage_frac,lower,0.07562666666666668,0.093265,0.18912060615807993,1.9073486328125e-06,7.62939453125e-06,True,False
+Oracle DQN k=5 vs Reactive DQN,p5_sinr_db,higher,-11.256252121720927,-13.096745696681648,0.1405306033717255,1.9073486328125e-06,7.62939453125e-06,True,False
+Oracle DQN k=10 vs Reactive DQN,rlf_per_ueh,lower,203.76,213.11999999999998,0.04391891891891885,0.0001049041748046875,0.000209808349609375,False,False
+Oracle DQN k=10 vs Reactive DQN,hof_rate,lower,0.03300948431723348,0.004143301082928606,-6.966952837012128,0.0001318338889828333,0.000209808349609375,False,True
+Oracle DQN k=10 vs Reactive DQN,outage_frac,lower,0.08797750000000001,0.093265,0.05669329330402602,1.9073486328125e-06,7.62939453125e-06,False,False
+Oracle DQN k=10 vs Reactive DQN,p5_sinr_db,higher,-12.697660726826374,-13.096745696681648,0.03047207139071126,9.5367431640625e-06,2.86102294921875e-05,False,False
+"Rules only vs Reactive DQN (reported, not in criterion)",rlf_per_ueh,lower,0.40499999999999997,213.11999999999998,,1.9073486328125e-06,,,
+"Rules only vs Reactive DQN (reported, not in criterion)",hof_rate,lower,0.003125566889717605,0.004143301082928606,,0.33183160809268897,,,
+"Rules only vs Reactive DQN (reported, not in criterion)",outage_frac,lower,0.054000000000000006,0.093265,,1.9073486328125e-06,,,
+"Rules only vs Reactive DQN (reported, not in criterion)",p5_sinr_db,higher,-8.436791813008444,-13.096745696681648,,1.9073486328125e-06,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",rlf_per_ueh,lower,4.049999999999999,1.7099999999999997,,0.00018865046456449614,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",hof_rate,lower,0.001961153663333645,0.00226549755332506,,0.09895736546518985,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",outage_frac,lower,0.06441749999999999,0.057682500000000005,,1.9073486328125e-06,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",p5_sinr_db,higher,-10.03007485000394,-9.265614849589005,,1.9073486328125e-06,,,

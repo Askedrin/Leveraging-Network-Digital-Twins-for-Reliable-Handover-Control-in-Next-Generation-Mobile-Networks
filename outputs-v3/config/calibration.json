@@ -1,0 +1,62 @@
+{
+  "rule": "Static A3 (N_HOF+N_RLF)/N_HO in [0.01, 0.10]; Tx offset steps of 3 dB in [-9, +6]",
+  "log": [
+    {
+      "tx_offset_db": 0.0,
+      "a3_failure_ratio": 0.00979538528515455,
+      "a3_totals": {
+        "n_ho": 4594,
+        "n_hof": 29,
+        "n_rlf": 16,
+        "n_pp1": 542
+      },
+      "a3_means": {
+        "outage_frac": 0.07319,
+        "p5_sinr_db": -11.45180394118752,
+        "mean_rsrp_dbm": -94.42983631829132
+      },
+      "rules_totals": {
+        "n_ho": 500,
+        "n_hof": 0,
+        "n_rlf": 1286,
+        "n_pp1": 0
+      },
+      "rules_means": {
+        "outage_frac": 0.12151,
+        "p5_sinr_db": -15.870411538617208,
+        "mean_rsrp_dbm": -95.82137664145544
+      },
+      "frac_best_cell_below_-120dBm": 0.00049
+    },
+    {
+      "tx_offset_db": -3.0,
+      "a3_failure_ratio": 0.010015240583496626,
+      "a3_totals": {
+        "n_ho": 4593,
+        "n_hof": 29,
+        "n_rlf": 17,
+        "n_pp1": 542
+      },
+      "a3_means": {
+        "outage_frac": 0.07502,
+        "p5_sinr_db": -11.58246035032941,
+        "mean_rsrp_dbm": -97.42983631829134
+      },
+      "rules_totals": {
+        "n_ho": 500,
+        "n_hof": 0,
+        "n_rlf": 1332,
+        "n_pp1": 0
+      },
+      "rules_means": {
+        "outage_frac": 0.12387999999999999,
+        "p5_sinr_db": -15.956290576063362,
+        "mean_rsrp_dbm": -98.79568844048042
+      },
+      "frac_best_cell_below_-120dBm": 0.00429
+    }
+  ],
+  "final_tx_offset_db": -3.0,
+  "accepted": 1.0,
+  "runtime_s": 9.844885657992563
+}

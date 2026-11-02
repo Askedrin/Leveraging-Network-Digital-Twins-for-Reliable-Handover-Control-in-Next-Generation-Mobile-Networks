@@ -1,0 +1,17 @@
+comparison,kpi,better_direction,arm_mean,reactive_mean,relative_improvement,p_raw,p_holm,improves,degrades
+Oracle DQN k=5 vs Reactive DQN,rlf_per_ueh,lower,242.23499999999996,242.23499999999996,-0.0,1.0,1.0,False,False
+Oracle DQN k=5 vs Reactive DQN,hof_rate,lower,0.0,0.0,,1.0,1.0,False,False
+Oracle DQN k=5 vs Reactive DQN,outage_frac,lower,0.1242375,0.1242375,-0.0,1.0,1.0,False,False
+Oracle DQN k=5 vs Reactive DQN,p5_sinr_db,higher,-15.937600231117722,-15.937600231117722,0.0,1.0,1.0,False,False
+Oracle DQN k=10 vs Reactive DQN,rlf_per_ueh,lower,242.23499999999996,242.23499999999996,-0.0,1.0,1.0,False,False
+Oracle DQN k=10 vs Reactive DQN,hof_rate,lower,0.0,0.0,,1.0,1.0,False,False
+Oracle DQN k=10 vs Reactive DQN,outage_frac,lower,0.1242375,0.1242375,-0.0,1.0,1.0,False,False
+Oracle DQN k=10 vs Reactive DQN,p5_sinr_db,higher,-15.937600231117722,-15.937600231117722,0.0,1.0,1.0,False,False
+"Rules only vs Reactive DQN (reported, not in criterion)",rlf_per_ueh,lower,249.11999999999998,242.23499999999996,,0.017181396484375,,,
+"Rules only vs Reactive DQN (reported, not in criterion)",hof_rate,lower,0.0025,0.0,,0.10247043485974937,,,
+"Rules only vs Reactive DQN (reported, not in criterion)",outage_frac,lower,0.12581749999999997,0.1242375,,0.029575347900390625,,,
+"Rules only vs Reactive DQN (reported, not in criterion)",p5_sinr_db,higher,-16.252168754723392,-15.937600231117722,,0.001689910888671875,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",rlf_per_ueh,lower,34.425000000000004,4.095000000000001,,1.9073486328125e-06,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",hof_rate,lower,0.010248690148985978,0.007445578230742625,,0.039989471435546875,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",outage_frac,lower,0.09292,0.0773325,,1.9073486328125e-06,,,
+"Tuned A3 vs Static A3 (reported, not in criterion)",p5_sinr_db,higher,-13.470307780892366,-11.858064462164062,,1.9073486328125e-06,,,

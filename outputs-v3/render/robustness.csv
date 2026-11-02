@@ -1,0 +1,37 @@
+design,arm,sigma,rlf_per_ueh,outage_frac,fallback_frac
+(a) Forecast-first,Reactive DQN,0.0,0.549,0.0537934999999999,0.0
+(a) Forecast-first,Reactive DQN,1.0,0.549,0.0537934999999999,0.0
+(a) Forecast-first,Reactive DQN,2.0,0.549,0.0537934999999999,0.0
+(a) Forecast-first,Reactive DQN,3.0,0.549,0.0537934999999999,0.0
+(a) Forecast-first,Reactive DQN,5.0,0.549,0.0537934999999999,0.0
+(a) Forecast-first,Reactive DQN,8.0,0.549,0.0537934999999999,0.0
+(a) Forecast-first,Proactive DQN,0.0,19.098,0.0523155,0.0
+(a) Forecast-first,Proactive DQN,1.0,18.072,0.0525224999999999,0.0
+(a) Forecast-first,Proactive DQN,2.0,15.876,0.052933,0.0
+(a) Forecast-first,Proactive DQN,3.0,14.985000000000005,0.053811,0.0
+(a) Forecast-first,Proactive DQN,5.0,16.749,0.0562029999999999,0.0
+(a) Forecast-first,Proactive DQN,8.0,19.665000000000003,0.059474,0.0
+(a) Forecast-first,Proactive DQN + fallback,0.0,15.813000000000002,0.052386,0.0616275
+(a) Forecast-first,Proactive DQN + fallback,1.0,14.688,0.0526585,0.0708075
+(a) Forecast-first,Proactive DQN + fallback,2.0,12.078,0.0531205,0.104555
+(a) Forecast-first,Proactive DQN + fallback,3.0,9.072,0.0537875,0.18153
+(a) Forecast-first,Proactive DQN + fallback,5.0,2.52,0.054574,0.6198275000000001
+(a) Forecast-first,Proactive DQN + fallback,8.0,0.4950000000000001,0.0538699999999999,0.9944
+(b) Proposed,Reactive DQN,0.0,0.819,0.0541319999999999,0.0
+(b) Proposed,Reactive DQN,1.0,0.819,0.0541319999999999,0.0
+(b) Proposed,Reactive DQN,2.0,0.819,0.0541319999999999,0.0
+(b) Proposed,Reactive DQN,3.0,0.819,0.0541319999999999,0.0
+(b) Proposed,Reactive DQN,5.0,0.819,0.0541319999999999,0.0
+(b) Proposed,Reactive DQN,8.0,0.819,0.0541319999999999,0.0
+(b) Proposed,Proactive DQN,0.0,0.783,0.053915,0.0
+(b) Proposed,Proactive DQN,1.0,0.783,0.05392,0.0
+(b) Proposed,Proactive DQN,2.0,0.783,0.0540105,0.0
+(b) Proposed,Proactive DQN,3.0,0.783,0.0541555,0.0
+(b) Proposed,Proactive DQN,5.0,0.792,0.054396,0.0
+(b) Proposed,Proactive DQN,8.0,0.819,0.0544485,0.0
+(b) Proposed,Proactive DQN + fallback,0.0,0.792,0.0539424999999999,0.0624024999999999
+(b) Proposed,Proactive DQN + fallback,1.0,0.792,0.0540004999999999,0.07146
+(b) Proposed,Proactive DQN + fallback,2.0,0.8009999999999999,0.0540584999999999,0.1052599999999999
+(b) Proposed,Proactive DQN + fallback,3.0,0.792,0.054205,0.186425
+(b) Proposed,Proactive DQN + fallback,5.0,0.8009999999999999,0.0543145,0.6215424999999999
+(b) Proposed,Proactive DQN + fallback,8.0,0.774,0.0543285,0.9945999999999998

@@ -1,0 +1,35 @@
+{
+  "rule": "Phase 0b: default powers, no loop",
+  "log": [
+    {
+      "tx_offset_db": 0.0,
+      "a3_failure_ratio": 0.0037560760053026955,
+      "a3_totals": {
+        "n_ho": 4526,
+        "n_hof": 9,
+        "n_rlf": 8,
+        "n_pp1": 384
+      },
+      "a3_means": {
+        "outage_frac": 0.05689999999999999,
+        "p5_sinr_db": -9.263689763656272,
+        "mean_rsrp_dbm": -93.96534510717518
+      },
+      "rules_totals": {
+        "n_ho": 3657,
+        "n_hof": 14,
+        "n_rlf": 0,
+        "n_pp1": 240
+      },
+      "rules_means": {
+        "outage_frac": 0.04567,
+        "p5_sinr_db": -7.407092248925878,
+        "mean_rsrp_dbm": -93.89746605528123
+      },
+      "frac_best_cell_below_-120dBm": 0.0007700000000000001
+    }
+  ],
+  "final_tx_offset_db": 0.0,
+  "accepted": 0.0,
+  "runtime_s": 13.93372770701535
+}

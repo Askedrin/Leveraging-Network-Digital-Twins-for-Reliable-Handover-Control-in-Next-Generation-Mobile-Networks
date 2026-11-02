@@ -1,0 +1,18 @@
+{
+  "selected_arch": "Transformer",
+  "selection": "lowest validation MSE (normalised delta)",
+  "val_mse_norm": {
+    "ImprovedLSTM": 0.0036338730715215206,
+    "TCN": 0.0035262664314359426,
+    "CNNLSTM": 0.003525226376950741,
+    "LSTMAttention": 0.0036494298838078976,
+    "BiLSTM": 0.003945939242839813,
+    "Transformer": 0.0035137247759848833
+  },
+  "complete": true,
+  "tau_e_db": 5.751128807515496,
+  "tau_rule": "95th percentile of e_t, clean forecasts, val scenarios",
+  "W_steps": 25,
+  "K_steps": 5,
+  "H_steps": 15
+}

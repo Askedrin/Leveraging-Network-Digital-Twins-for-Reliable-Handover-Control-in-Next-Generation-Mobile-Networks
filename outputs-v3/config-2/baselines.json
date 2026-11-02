@@ -1,0 +1,12 @@
+{
+  "static_a3": {
+    "margin_db": 3.0,
+    "ttt_s": 0.16,
+    "note": "offset 0 dB + hysteresis 3 dB (v2); fires on the 2nd consecutive 0.2 s sample when TTT <= 0.2 s"
+  },
+  "tuned_a3": {
+    "margin_db": 6.0,
+    "ttt_s": 0.04,
+    "selection": "min (N_RLF + N_HOF + 0.1 N_PP,1s) per UE-hour on calibration seeds, ties -> fewer HOs"
+  }
+}

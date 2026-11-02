@@ -1,0 +1,130 @@
+{
+  "grid_width_m": 2000,
+  "grid_height_m": 1500,
+  "n_macro": 7,
+  "n_micro": 4,
+  "n_pico": 1,
+  "n_vehicles": 20,
+  "dt_s": 0.2,
+  "steps_per_episode": 1000,
+  "training_episodes": 100,
+  "evaluation_scenarios": 20,
+  "training_seed": 42,
+  "evaluation_seed_start": 1000,
+  "layout_seed": 42,
+  "speed_spawn_min_kmh": 30.0,
+  "speed_spawn_max_kmh": 80.0,
+  "speed_clip_min_kmh": 20.0,
+  "speed_clip_max_kmh": 100.0,
+  "state_size": 18,
+  "action_size": 2,
+  "learning_rate": 5e-05,
+  "weight_decay": 5e-05,
+  "gamma": 0.995,
+  "epsilon_start": 0.95,
+  "epsilon_min": 0.05,
+  "epsilon_decay": 0.9995,
+  "batch_size": 128,
+  "replay_capacity": 100000,
+  "target_update_steps": 1000,
+  "warmup_updates": 10000,
+  "priority_alpha": 0.7,
+  "importance_exponent": -0.4,
+  "gradient_clip_norm": 1.0,
+  "min_handover_interval_s": 30.0,
+  "min_rsrp_improvement_db": 3.0,
+  "blacklist_duration_s": 120.0,
+  "blacklist_count_300s": 4,
+  "blacklist_count_60s": 2,
+  "a3_offset_db": 0.0,
+  "a3_hysteresis_db": 3.0,
+  "a3_ttt_s": 0.16,
+  "rlf_threshold_dbm": -118.0,
+  "rlf_consecutive_measurements": 3,
+  "rlf_recovery_db": 0.0,
+  "ping_pong_window_s": 60.0,
+  "predictor_history": 15,
+  "predictor_input_features": 12,
+  "predictor_output_steps": 1,
+  "predictor_disagreement_limit_db": 15.0,
+  "predictor_min_confidence": 0.3,
+  "carrier_ghz": 3.5,
+  "n_rb": 273,
+  "scs_hz": 30000.0,
+  "tx_power_dbm": [
+    49.0,
+    37.0,
+    30.0
+  ],
+  "tx_offset_db": -3.0,
+  "antenna_gain_dbi": [
+    8.0,
+    5.0,
+    5.0
+  ],
+  "h_bs_m": [
+    25.0,
+    10.0,
+    10.0
+  ],
+  "h_ut_m": 1.5,
+  "noise_figure_db": 9.0,
+  "sf_std_db": [
+    [
+      4.0,
+      6.0
+    ],
+    [
+      4.0,
+      7.82
+    ]
+  ],
+  "sf_dcorr_m": [
+    [
+      37.0,
+      50.0
+    ],
+    [
+      10.0,
+      13.0
+    ]
+  ],
+  "los_dcorr_m": [
+    50.0,
+    50.0
+  ],
+  "residual_fading_db": 1.0,
+  "l3_k": 4,
+  "q_out_db": -8.0,
+  "q_in_db": -6.0,
+  "t310_steps": 5,
+  "t_store_s": 5.0,
+  "pp_mts_s": 1.0,
+  "pp_secondary_s": 10.0,
+  "r_min_dbm": -125.0,
+  "mobility": "manhattan",
+  "block_m": 250.0,
+  "speed_min_kmh": 60.0,
+  "speed_max_kmh": 100.0,
+  "recent_window_s": 60.0,
+  "rsrp_norm_offset": 140.0,
+  "rsrp_norm_scale": 80.0,
+  "horizon_pad": 10,
+  "calibration_seeds": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+  ],
+  "hardware": {
+    "cpu_model": "Intel(R) Xeon(R) w3-2435",
+    "logical_cores": 16,
+    "ram_gib": 30.59,
+    "gpu_model": "NVIDIA T400 4GB",
+    "gpu_vram_gib": 3.62,
+    "python": "3.12.4",
+    "pytorch": "2.5.1",
+    "device_used": "GPU"
+  }
+}

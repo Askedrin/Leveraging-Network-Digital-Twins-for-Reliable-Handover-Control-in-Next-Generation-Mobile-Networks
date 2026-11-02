@@ -1,0 +1,2 @@
+training_seed,training_runtime_s,evaluation_runtime_s,threads,forecaster,tau_e_db
+46,6016.319900872011,6741.5,2,CNNLSTM,5.66208363525051

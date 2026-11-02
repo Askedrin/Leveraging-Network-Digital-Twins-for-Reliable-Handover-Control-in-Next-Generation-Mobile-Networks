@@ -1,0 +1,17 @@
+{
+  "selected_arch": "CNNLSTM",
+  "selection": "lowest validation MSE (normalised delta)",
+  "val_mse_norm": {
+    "ImprovedLSTM": 0.0036338730715215206,
+    "TCN": 0.0035262664314359426,
+    "CNNLSTM": 0.003525226376950741,
+    "LSTMAttention": 0.0036494298838078976,
+    "BiLSTM": 0.003945939242839813
+  },
+  "complete": false,
+  "tau_e_db": 5.66208363525051,
+  "tau_rule": "95th percentile of e_t, clean forecasts, val scenarios",
+  "W_steps": 25,
+  "K_steps": 5,
+  "H_steps": 15
+}

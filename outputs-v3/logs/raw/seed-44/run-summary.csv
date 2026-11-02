@@ -1,0 +1,2 @@
+training_seed,episodes,steps_per_episode,training_runtime_s,evaluation_runtime_s,threads,device
+44,100,1000,2526.9,56.7,4,CPU

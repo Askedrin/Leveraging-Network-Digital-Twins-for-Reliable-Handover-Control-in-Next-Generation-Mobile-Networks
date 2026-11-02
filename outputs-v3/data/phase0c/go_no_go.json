@@ -1,0 +1,13 @@
+{
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "scenarios": 20,
+  "per_oracle_arm": {
+    "Oracle DQN k=5": false,
+    "Oracle DQN k=10": false
+  },
+  "verdict": "NO-GO"
+}

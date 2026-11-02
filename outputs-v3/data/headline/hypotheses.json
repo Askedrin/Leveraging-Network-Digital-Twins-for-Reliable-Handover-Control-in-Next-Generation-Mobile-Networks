@@ -1,0 +1,19 @@
+{
+  "training_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "scenarios": 50,
+  "verdicts": {
+    "H1: Proactive DQN + fallback vs Reactive DQN": false,
+    "H2: Proactive DQN vs Reactive DQN": false,
+    "H3: Proactive DQN + fallback vs Static A3": false,
+    "H3: Proactive DQN + fallback vs Tuned A3": false,
+    "H3: Proactive DQN + fallback vs MRO-A3": false,
+    "H4: Reactive DQN vs Rules only": false,
+    "H5: Rules only vs Rules only, paper's layer": false
+  }
+}
